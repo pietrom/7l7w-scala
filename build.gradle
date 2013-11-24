@@ -1,0 +1,21 @@
+apply plugin: 'eclipse'
+apply plugin: 'scala'
+
+repositories { mavenCentral() }
+
+dependencies {
+//	compile 'org.codehaus.groovy:groovy-all:2.1.6'
+	compile 'org.scala-lang:scala-library:2.10.3'
+	testCompile 'junit:junit:4.11'
+}
+/*
+sourceSets {
+	main {
+		java { srcDirs = []}
+		groovy { srcDirs = [
+				'src/main/java',
+				'src/main/groovy']
+		}
+	}
+}
+*/
